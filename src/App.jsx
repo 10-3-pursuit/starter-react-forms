@@ -97,7 +97,7 @@ function App() {
               <label>Likes swimming:</label>
               <input type="checkbox" />
               <br />
-              <input type="submit" />
+              <button> Submit</button>
             </form>
           ) : null}
         </div>
