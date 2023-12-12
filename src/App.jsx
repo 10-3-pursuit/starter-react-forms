@@ -15,11 +15,11 @@ function App() {
     age: "",
     likesSwimming: "",
     favFlavor: "",
-    contact: "",
+    contact: ""
   });
 
   function addDog() {
-    const rover = {
+    const newDog = {
       id: generateUniqueID(),
       name: "Rover",
       present: false,
@@ -28,9 +28,9 @@ function App() {
       age: 5,
       likesSwimming: true,
       favFlavor: "beef",
-      contact: "r0v3r@yoyodyne.io",
+      contact: "r0v3r@yoyodyne.io"
     };
-    setDogs([rover, ...dogs]);
+    setDogs([newDog, ...dogs]);
   }
 
   function handleTextChange(event) {}
